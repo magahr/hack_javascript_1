@@ -14,3 +14,23 @@ let result = [];
 
 //export result
 module.exports = result;
+
+for (let i = 0; i < arr.length; i++) {
+
+    if (arr[i] === "bar" || arr[i] === "baz")
+    {
+        result.push(arr[i].slice(0,1) +  "@" + arr[i].slice(2) );
+ 
+    }
+    
+    if (arr[i] === "qux")
+    {
+        result.push(arr[i].slice(0,3).toUpperCase());
+     
+    }
+  
+ }
+ 
+ console.log(result);
+
+//  result.push(arr[i].slice(0,1).toUpperCase() + arr[i].slice(1));
