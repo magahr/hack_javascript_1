@@ -10,3 +10,15 @@ let result = [];
 
 //export result
 module.exports = result;
+
+
+let i = 8;
+while (i > 0) {
+    if (i % 2 === 1) {
+        result.push(i);
+       
+    } 
+    i--;
+}
+
+console.log(result);
