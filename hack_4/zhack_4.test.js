@@ -8,7 +8,7 @@ let {
 let hackFor = require("./hack_4_for");
 let hackWhile = require("./hack_4_while");
 let hackMap = require("./hack_4_map").default;
-//MOCK
+//MOCK  
 let arrMock = require("../mocks/mock_4");
 //
 let HACK_4_FOR = fnMsg("hack-4 (for)", 1, "[1,3,5,7]");
