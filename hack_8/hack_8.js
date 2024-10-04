@@ -11,10 +11,6 @@
 let arr = ["foo","bar","baz","qux","echo"];
 let result = [];
 
-
-//export result
-module.exports = result;
-
 for (let i = 0; i < arr.length; i++) {
 
     if (arr[i] === "bar" || arr[i] === "baz")
@@ -33,4 +29,10 @@ for (let i = 0; i < arr.length; i++) {
  
  console.log(result);
 
+
+//export result
+module.exports = result;
+
+
+ 
 //  result.push(arr[i].slice(0,1).toUpperCase() + arr[i].slice(1));

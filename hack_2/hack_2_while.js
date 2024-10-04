@@ -10,3 +10,10 @@ let result = [];
 
 //export result
 module.exports = result;
+
+let i = 1;
+while (i < 6) {
+    result[i] = i
+    console.log(result[i]);
+    i++;
+  }

@@ -7,10 +7,6 @@
  */
 let result = [];
 
-
-//export result
-module.exports = result;
-
 const numeros = [7, 6, 5, 4, 3, 2, 1];
 
 const numerosImpares = numeros.map(numero => {
@@ -22,3 +18,7 @@ const numerosImpares = numeros.map(numero => {
 result = numerosImpares.filter(numero => numero !== undefined);
 
 console.log(result); // Imprimirá: [7,5,3,1]
+
+//export result
+module.exports = result;
+

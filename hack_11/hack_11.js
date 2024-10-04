@@ -19,6 +19,45 @@ let numberArray = [1,2,3,4,5];
 let stringArray = ["foo","bar","baz","qux","echo"]
 let result = [];
 
-
+let unidades = ['cero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 //export result
 module.exports = result;
+
+result.push("h@ck")
+
+for (let i = 0; i < numberArray.length; i++) {
+
+    if (i % 2 === 1) {
+        result.push(numberArray[i]);
+    } else
+        result.push(unidades[numberArray[i]]);
+ 
+ }
+
+ result.push("h@ck")
+
+ for (let i = 0; i < stringArray.length; i++) {
+   
+
+    if (stringArray[i] === "bar") {
+        stringArray[i] = stringArray[i].replace("bar", "Bar");
+    }  else
+    
+    if (stringArray[i] === "baz") {
+        stringArray[i] = stringArray[i].replace("baz", "b@z");
+    }   else
+    
+    if (stringArray[i] === "foo") {
+        stringArray[i] = stringArray[i].replace("foo", "f00");
+    }
+
+    stringArray[i] = stringArray[i].replace("o", 0); 
+    stringArray[i] = stringArray[i].replace("x", "X");
+    stringArray[i] = stringArray[i].replace("e", "3");
+
+    result.push(stringArray[i])
+     
+ }
+ 
+ result.push("h@ck")
+ console.log(result);

@@ -10,3 +10,8 @@ let result = [];
 
 //export result
 module.exports = result;
+
+for (let i = 1; i < 6; i++) {
+    result[i] = i
+    console.log(result[i]);
+  }

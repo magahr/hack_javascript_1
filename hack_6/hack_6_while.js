@@ -12,3 +12,14 @@ let result = [];
 
 //export result
 module.exports = result;
+
+let i = 0;
+while ( i < str.length) {
+
+    result.push(str[i]);
+    
+    i++;
+}
+
+console.log(result);
+

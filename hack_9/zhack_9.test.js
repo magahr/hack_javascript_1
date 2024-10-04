@@ -10,6 +10,7 @@ let hack = require("./hack_9");
 let mock = require("../mocks/mock_9");
 //
 let HACK_9 = fnMsg("hack-9", 1, '2');
+
 let successMsg = fnSuccess(1);
 let rejectMsg = fnReject();
 

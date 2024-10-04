@@ -10,3 +10,11 @@ let result = [];
 
 //export result
 module.exports = result;
+
+
+let i = 5;
+while (i > 0) {
+    result.push(i);
+    i--;
+  }
+  console.log(result);

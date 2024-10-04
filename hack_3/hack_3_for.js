@@ -10,3 +10,9 @@ let result = [];
 
 //export result
 module.exports = result;
+
+for (let i = 5; i > 0; i--) {
+    result.push(i);
+  
+  }
+  console.log(result);
